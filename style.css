@@ -1,0 +1,120 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+html,body {
+	height:100%;
+	width:100%;
+    background:url(darkforest.jpg) 100% 100vh;
+    background-size:cover;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 700px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px black
+
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.box__tbl{
+    width: 350px;
+    height: 280px;
+    float:right;
+}
+.box__ipt{
+    width:350px;
+    height: 280px;
+    float: left;
+    text-align: center;
+}
+h3{
+    font-size: 21px;
+    padding-top: 60px;
+    
+}
+#w,#h{
+    background-color: #ebebeb;
+    text-align: left;
+    font-size: 25px;
+    font-weight:200px;
+    outline: none;
+    background:none;
+    width:80px;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    border:2px #6C63FF solid;
+}
+
+#result{
+    color: #000;
+}
+#btn{
+    margin-top: 10px;
+    border: 3px #6C63FF solid;
+    color: #6C63FF;
+    background-color:white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    font-size: 23px;
+    margin-top: 25px;
+
+}
+btn:hover{
+    box-shadow:1px 1px 10px #341f97;
+}
+
+#info{
+    font-size: 12px;
+}
+h4{
+    font-size: 30px;
+    margin-top: 35px;
+}
+h5{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.box__h6{
+    width:700px;
+    height: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h6{
+    font-size: 40px;
+    margin-top: 30px;
+}
+#result{
+    height: 49px;
+    width: 150px;
+    text-align: center;
+}
+.box_rst{
+    width: 700px;
+    height: 50px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    font-size: 40px;
+}
